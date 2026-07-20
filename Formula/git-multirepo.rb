@@ -1,15 +1,15 @@
 class GitMultirepo < Formula
   desc "Manifest-driven multi-repo git plugin"
   homepage "https://github.com/nicolaei/git-multirepo"
-  version "0.3.0"
+  version "0.3.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nicolaei/git-multirepo/releases/download/v0.3.0/git-multirepo-aarch64-apple-darwin.tar.xz"
-      sha256 "b99a7459ef39d13c1b440aa61b5a90c56ddbd9c379883b3579427e5357bbae17"
+      url "https://github.com/nicolaei/git-multirepo/releases/download/v0.3.1/git-multirepo-aarch64-apple-darwin.tar.xz"
+      sha256 "fd6029707dc4f1656f35cc9f9607df1a8984f2a375f15490b5c19710c18061a5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nicolaei/git-multirepo/releases/download/v0.3.0/git-multirepo-x86_64-apple-darwin.tar.xz"
-      sha256 "4135821080e59c50054f4e87b20ef8e2ff03c39597c0d841b3d4ca1bd0e901f2"
+      url "https://github.com/nicolaei/git-multirepo/releases/download/v0.3.1/git-multirepo-x86_64-apple-darwin.tar.xz"
+      sha256 "a8655108fa42ced96ae44e639033bf2d5b8b4348344033318b025f0ee4d0ec26"
     end
   end
   license "MPL-2.0"
